@@ -57,6 +57,10 @@ Speeds and the collision offset are serialized fields, tunable in the Inspector.
 - **`Assets/Settings/`** — HDRP quality tiers (Performant / Balanced / High Fidelity)
   and the sky & fog volume profile.
 
+- **`Source/Colon.blend`** — standalone Blender source for the colon anatomy.
+- **`Source/motacolon.fbx`** — the FBX export of the colon mesh, for engine import
+  without opening Blender.
+
 `*.blend`, `*.fbx`, and `*.tga` are stored in **Git LFS** (see `.gitattributes`), so
 **Git LFS must be installed before cloning** — otherwise you get small pointer files
 instead of the real models.
